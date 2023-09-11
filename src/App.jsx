@@ -2,6 +2,9 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Counter from './Counter'
+import Team from './Team'
+
 
 function App() {
  
@@ -21,6 +24,11 @@ const adding5 = (num) => {
     <>
   
       <h3>React Core Concepts 2</h3>
+
+<Team></Team>
+
+    <Counter></Counter>
+
   {/* <button onClick={handleClick}>Click me</button>
     */}
   <button onClick={handleClick}>Click me</button>
