@@ -11,8 +11,8 @@ const handleAdd = () => {
 }
 
 const handleReduce = () => {
-    const  newTeam = team - 1;
-    setTeam(newTeam);
+    const  newTeam2 = team - 1;
+    setTeam(newTeam2);
 }
 
 const teamStyle = {
